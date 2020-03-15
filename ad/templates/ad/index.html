@@ -1,0 +1,18 @@
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <div class="container border shadow-sm mt-5 p-0" style="height: 70%; width: 60%">
+        <div class="container-fluid border-bottom shadow-sm p-0 d-flex flex-row">
+                  <i class="fas fa-user mt-4 ml-4" style="font-size: 30px"></i>
+            <div class="text-dark m-3 d-flex flex-column">
+            <p class="text-dark m-0">full name: {{ad.user.full_name}}</p>
+            <p class="text-dark m-0">{{ad.user.age}} years old</p>
+            </div>
+                <h5 class="text-white bg-success d-flex justify-content-center align-items-center mb-3 mt-4" style="width: 70px; height: 30px; font-size: 17px; margin-left: 530px">{{ad.price}}</h5>
+        </div>
+      <p class="text-dark m-5 d-flex flex-column" style="height: 100%; word-break: break-word">{{ad.text}}</p>
+  </div>
